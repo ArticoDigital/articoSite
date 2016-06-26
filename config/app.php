@@ -151,10 +151,10 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Artico\Providers\AppServiceProvider::class,
+        Artico\Providers\AuthServiceProvider::class,
+        Artico\Providers\EventServiceProvider::class,
+        Artico\Providers\RouteServiceProvider::class,
 
     ],
 

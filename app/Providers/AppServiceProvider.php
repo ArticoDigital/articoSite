@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Artico\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
