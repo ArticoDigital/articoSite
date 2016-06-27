@@ -9,6 +9,6 @@ use Artico\Http\Requests;
 class QuotationController extends Controller
 {
     function index(){
-        return view("back.quotation.php");
+        return view("back.quotation");
     }
 }
