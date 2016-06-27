@@ -9,6 +9,6 @@ use Artico\Http\Requests;
 class PositionController extends Controller
 {
     function index(){
-        return "vista positions";
+        return view("back.positions.php");
     }
 }

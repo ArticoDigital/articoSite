@@ -9,6 +9,6 @@ use Artico\Http\Requests;
 class CustomerController extends Controller
 {
     function index(){
-        return "vista cliente";
+        return view("back.customers.php");
     }
 }
