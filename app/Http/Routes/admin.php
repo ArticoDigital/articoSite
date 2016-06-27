@@ -1,19 +1,15 @@
 <?php
 
-Route::get('/', [
-
-]);
-Route::get('cotizador', [
-    'use' => 'QuotationController@index',
-    'as' => 'quotation'
-]);
+Route::get('/', function(){
+    return 'inicio';
+});
 
 Route::get('clientes', [
-    'use' => 'CustomerController@index',
+    'uses' => 'CustomerController@index',
     'as' => 'customer'
 ]);
 
 Route::get('encargados', [
-    'use' => 'PositionController@index',
+    'uses' => 'PositionController@index',
     'as' => 'position'
 ]);
